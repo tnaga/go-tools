@@ -1,8 +1,8 @@
 package main
 
 import "fmt"
-import "uuid"
+import "gotools"
 
 func main() {
-    fmt.Println(uuid.Generate())
+    fmt.Println(gotools.UUID_Generate())
 }
