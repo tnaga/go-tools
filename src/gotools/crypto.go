@@ -1,6 +1,6 @@
 package gotools
 
-func byte_inverse(nDauVao byte) byte {
+func Byte_Inverse(nDauVao byte) byte {
 	var x int = 1
 	var y int = 0
 	var u int = 0
@@ -9,7 +9,7 @@ func byte_inverse(nDauVao byte) byte {
 	var r int
 	var s int
 	var t int
-	var a int = 6
+	var a int = 256
 	var b int = int(nDauVao)
 	for b != 0 {
 		q = a / b
